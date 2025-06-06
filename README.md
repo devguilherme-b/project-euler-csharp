@@ -13,6 +13,7 @@ Este projeto foi desenvolvido inteiramente no Android utilizando o aplicativo [C
 - [Como Utilizar](#como-utilizar)
 - [Referência](#referência)
 - [Contato](#contato)
+- [Mensagem Final](#mensagem-final)
 
 ## Sobre
 
@@ -20,17 +21,21 @@ O `project-euler-csharp` é um programa com resoluções de desafios do [Project
 
 ## Tecnologias Utilizadas
 
-No Projeto:
-- .NET
+- Aplicativo [C# Shell - .NET IDE](https://play.google.com/store/apps/details?id=com.rfo.net)
 - C# (CSharp)
 
 Para versionamento:
 - Git
 - Termux
 
+Modelo do Android utilizado:
+- Redmi Note 12s
+
 ## Aprendizado
 
-Durante o desenvolvimento deste projeto, aprofundei conhecimentos como:
+Iniciei este repositório para publicar minhas próprias resoluções do Projeto Euler enquanto reforço minha lógica de programação.
+
+Durante o desenvolvimento deste projeto, estou aprofundando conhecimentos como:
 
 - ✅ Manipulação de listas genéricas (`List<T>`)
 - ✅ Estruturação de programas de console
@@ -66,6 +71,6 @@ Caso tenha dúvidas, sugestões ou queira se conectar, entre em contato através
 - 📸 Instagram: [@dev.guilhermee](https://www.instagram.com/dev.guilhermee)
 - 💼 LinkedIn: [Guilherme Barbosa](https://www.linkedin.com/in/devguilhermebarbosa/)
 
----
+## Mensagem Final
 
-⚡ _Feito com dedicação por Guilherme Barbosa. 🚀_
+O projeto é para aprendizado, fique a vontade para criar sua branch e fazer parte deste projeto. 
