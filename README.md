@@ -23,13 +23,8 @@ O `project-euler-csharp` é um programa com resoluções de desafios do [Project
 
 - Aplicativo [C# Shell - .NET IDE](https://play.google.com/store/apps/details?id=com.rfo.net)
 - C# (CSharp)
-
-Para versionamento:
 - Git
 - Termux
-
-Modelo do Android utilizado:
-- Redmi Note 12s
 
 ## Aprendizado
 
