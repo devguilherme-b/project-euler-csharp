@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using ProjectEuler.Desafios;
+using System.Diagnostics;
 
 namespace ProjectEuler;
 
@@ -8,17 +9,24 @@ public static class Program
 {
     public static void Main()
     {
-        // Descomente um desafio para ver o resultado
+        Console.WriteLine("Desafios já desenvolvidos: \n\n1. Multiples of 3 or 5\n2. Even Fibonacci Numbers\n3. Largest Prime Factor\n");
+        Console.WriteLine("Digite apenas o número do desafio para executá-lo! :)");
+        int escolha = Convert.ToInt32(Console.ReadLine().Trim());
 
-
-
-        // Problem 1 : Multiples of 3 or 5 between 0 and 1000
-        //MultiplesOf3or5.SearchMultiples(3, 5, 10);
-
-        // Problem 2: Numbers Fibonacci
-        // EvenFibonacciNumbers.CreateFibonacciSequence(4_000_000);
-
-        // Problem 3: Largest Prime Factor
-        LargestPrimeFactor.CalculaPrimeFactor(600851475143);
+        switch (escolha)
+        {
+            case 1:
+                Desafios.DesafiosFeitos.MultiplesOfTwoNumbers();
+                break;
+            case 2:
+                Desafios.DesafiosFeitos.CreateFibonacciSequence();
+                break;
+            case 3:
+                Desafios.DesafiosFeitos.MultiplesOfTwoNumbers();
+                break;
+            default:
+                Console.WriteLine("Confira se o número está certa");
+                break;
+        }
     }
 }
