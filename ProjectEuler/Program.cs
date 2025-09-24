@@ -25,7 +25,7 @@ public static class Program
                 Desafios.BiggestFactorFirstOf.Execute();
                 break;
             case 4:
-                Desafios.SumOfSquares.Execute();
+                Desafios.SumOfSquaresDifference.Execute();
                 break;
             default:
                 Console.WriteLine("Confira se o número está certa");
